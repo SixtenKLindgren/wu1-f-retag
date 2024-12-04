@@ -1,11 +1,13 @@
 ### Företagsnamn
-RaidMule 
+Solarplane
 ### Mission statement 
-"Att göra raiding njutbart igen genom att tabort bördan av att skaffa consumables så att man kan fokusera på det som är roligt"
+"Solarplane vill skapa stillrena solpanneler på ett miljövänligt sätt."
 ### Vision
-"Att göra WoW classic raiding mer inkluderade för per soner som inte längre har tid att spela flera timmar varje dag"
+"Att använda återvunna material för att skapa stilrena sol panneler som inte skadar den architektoniska kvaliten."
 ### Produkter eller Tjänster
-RaidMule erbjuder engångs packet med consumables eller prenumeration för både enskilda personer eller hela guilds. Raidmule erbjuder även tjänster som att leverea varorna direkt till Raiden eller via mail. Spelare kan också pengar till personer som samlar consumables till tjänsten.
+Solarplane erbjuder stilrena sol panneler producerade med en klimat tänkt som är gjorde på återvunna material. Vi erbjuder även montering och service på pannelerna
 ### Målgrupp
-* Medelåldersmän (30-45år), som har famlijer och/eller krävande jobb och spelar WoW
-* Personer från rikare länder där man spelar mycket tv-spel som WoW. Det är en stor målgrupp i öst-asistiska länder på grund av spel kultren in dom länderna som Kina, Japan och Korea. 
+* Personer som brinner för att rädda klimatet som även inte vill skada utseendet på deras bostad eller byggnad
+* Sol pannelerna passar även för att företag som vill vissa att de är dedikerade till att rädda klimatet eftersom sol pannelerna smälter perfekt in en modern urban miljö
+### USP 
+Det unika med solarplanes panneler är att vi är dedikerade till utseendet av våra panneler men även har ett klimat tänk som går längre att bara att pannelerna är miljövänliga när de väll är monterade.
