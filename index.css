@@ -1,0 +1,28 @@
+.hero {
+    display: grid;
+    grid-template-areas: "hero";
+    place-items: center;
+}
+.hero > * {
+    grid-area: hero;
+}
+.hero-txt {
+    font-family: "Playfair display", serif;
+    z-index: 1;
+    color: white;    
+}
+.hero-txt > h1 {
+    font-weight: 900;
+    font-size: 10rem;
+}
+.hero-txt > p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.hero > img {
+    width: 100%;
+    height: 60vh;
+    max-height: 500px;
+    object-fit: cover;
+    z-index: -1;
+}
