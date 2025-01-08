@@ -1,28 +1,41 @@
+:root {
+    --hero-height: 60vh;
+    --hero-max-height: 500px;
+}
+body {
+    background-color: #333333;
+}
 .hero {
     display: grid;
     grid-template-areas: "hero";
     place-items: center;
+    height: var(--hero-height);
+    max-height: var(--hero-max-height);
+
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 .hero > * {
     grid-area: hero;
 }
-.hero-txt {
-    font-family: "Playfair display", serif;
+
+.hero-content {
     z-index: 1;
-    color: white;    
+    color: white;
+    text-align: center;
+    font-family: Playfair display;
+    color: #F4F1E6;
 }
-.hero-txt > h1 {
-    font-weight: 900;
-    font-size: 10rem;
+.hero-content > h1 {
+    font-size: 5rem;
 }
-.hero-txt > p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+.hero-content > P {
+    font-size: 1.6rem;
 }
 .hero > img {
-    width: 100%;
-    height: 60vh;
-    max-height: 500px;
-    object-fit: cover;
     z-index: -1;
+
+    object-fit: cover;
+    height: min(var(--hero-height), var(--hero-max-height));
+    width: 100%;
 }
