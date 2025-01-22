@@ -1,9 +1,22 @@
 :root {
     --hero-height: 60vh;
     --hero-max-height: 500px;
+    --container-width: 58rem;
+    --dark: #333333;
+    --light: #F4F1E6;
+    --yellow: #FFC857;
+    --green: #1C4A3D;
+}
+.container {
+    width: min(100vw - 3rem, var(--container-width));
+    margin-inline: auto;
+    font-family: "Montserrat", serif;
+    line-height: 1.6rem;
+    text-align: center;
+    font-weight: 600;
 }
 body {
-    background-color: #333333;
+    background-color: var(--dark);
 }
 .hero {
     display: grid;
@@ -21,10 +34,9 @@ body {
 
 .hero-content {
     z-index: 1;
-    color: white;
     text-align: center;
-    font-family: Playfair display;
-    color: #F4F1E6;
+    font-family: "Playfair display", serif;
+    color: var(--light);
 }
 .hero-content > h1 {
     font-size: 5rem;
@@ -34,8 +46,29 @@ body {
 }
 .hero > img {
     z-index: -1;
-
     object-fit: cover;
     height: min(var(--hero-height), var(--hero-max-height));
     width: 100%;
+}
+
+.landingpagecontent {
+    color: var(--light);
+    margin-top: 2rem;
+}
+.upptackframtiden {
+    font-weight: 800;
+    color: var(--yellow)
+}
+.button {
+    background-color: var(--green);
+    display: inline-block;
+    padding: 12px 15px;
+    transition-duration: 0.5s;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--light);
+}
+.button:hover {
+    background-color: var(--light);
+    color: var(--dark);
 }
