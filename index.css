@@ -6,6 +6,7 @@
     --light: #F4F1E6;
     --yellow: #FFC857;
     --green: #1C4A3D;
+    --card-width: 300px;
 }
 .container {
     width: min(100vw - 3rem, var(--container-width));
@@ -55,10 +56,11 @@ body {
     color: var(--light);
     margin-top: 2rem;
 }
-.upptackframtiden {
-    font-weight: 800;
+
+.text-yellow {
     color: var(--yellow)
 }
+
 .button {
     background-color: var(--green);
     display: inline-block;
@@ -70,5 +72,31 @@ body {
 }
 .button:hover {
     background-color: var(--light);
-    color: var(--dark);
+    color: var(--green);
+}
+
+.card {
+    background-color: var(--green);
+    max-width: var(--card-width);
+    padding: 1rem;
+}
+.card > img {
+    max-width: var(--card-width);
+    
+}
+.card-content {
+    margin-top: 10px;
+    color: var(--light);
+}
+.card-content > h1{
+    font-family: "Playfair display", serif;
+    color: var(--yellow);
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    place-content: center;
 }
