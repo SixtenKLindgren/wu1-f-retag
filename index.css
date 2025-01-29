@@ -18,6 +18,7 @@
 }
 body {
     background-color: var(--dark);
+    margin: 0;
 }
 .hero {
     display: grid;
@@ -36,7 +37,7 @@ body {
 .hero-content {
     z-index: 1;
     text-align: center;
-    font-family: "Playfair display", serif;
+    font-family: "Playfair display", sans-serif;
     color: var(--light);
 }
 .hero-content > h1 {
@@ -99,4 +100,35 @@ body {
     flex-wrap: wrap;
     gap: 2rem;
     place-content: center;
+}
+
+.landingpagefooter {
+    background-color: var(--green);
+    font-family: "Montserrat", sans-serif;
+}
+
+.landingpagefooter > ul {
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 0;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.landingpagefooter > p {
+    text-align: center;
+    color: var(--light);
+    margin: 0;
+    padding: 1rem;
+}
+
+ul > a {
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+ul > a:hover {
+    color: var(--light);
 }
