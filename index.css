@@ -11,10 +11,11 @@
 .container {
     width: min(100vw - 3rem, var(--container-width));
     margin-inline: auto;
-    font-family: "Montserrat", serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.6rem;
     text-align: center;
     font-weight: 600;
+    color: var(--light);
 }
 body {
     background-color: var(--dark);
@@ -37,14 +38,22 @@ body {
 .hero-content {
     z-index: 1;
     text-align: center;
-    font-family: "Playfair display", sans-serif;
+    font-family: "Playfair display", serif;
     color: var(--light);
-}
-.hero-content > h1 {
-    font-size: 5rem;
-}
-.hero-content > P {
     font-size: 1.6rem;
+}
+.header1 {
+    font-size: 5rem;
+    font-family: "Playfair display", serif;
+}
+.header2 {
+    font-size: 2rem;
+}
+.bodytext {
+    font-size: 1rem;
+}
+.textyellow {
+    color: var(--yellow);
 }
 .hero > img {
     z-index: -1;
@@ -58,10 +67,6 @@ body {
     margin-top: 2rem;
 }
 
-.text-yellow {
-    color: var(--yellow)
-}
-
 .button {
     background-color: var(--green);
     display: inline-block;
@@ -70,6 +75,7 @@ body {
     font-size: 1.4rem;
     text-decoration: none;
     color: var(--light);
+    font-family: "Playfair display", serif;
 }
 .button:hover {
     background-color: var(--light);
@@ -92,7 +98,6 @@ body {
 .card-content > h1{
     font-family: "Playfair display", serif;
     color: var(--yellow);
-    font-size: 2rem;
     line-height: 2.5rem;
 }
 .card-group {
@@ -124,11 +129,44 @@ body {
     padding: 1rem;
 }
 
-ul > a {
+.footernav > a {
     color: var(--yellow);
     text-decoration: none;
 }
 
-ul > a:hover {
+.footernav > a:hover {
     color: var(--light);
+}
+
+.gpcontent {
+    margin-top: 5rem;
+}
+
+.colorlist {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 5rem;
+
+    li {
+        aspect-ratio: 1;
+        width: 10rem;
+        display: grid;
+        place-items:center;
+        border: 1px solid var(--light);
+    }
+}
+
+.green {
+    background-color: var(--green);
+}
+.yellow {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+.light {
+    background-color: var(--light);
+    color: var(--dark);
 }
