@@ -173,7 +173,8 @@ body {
 
 .map {
     border: 10px solid var(--green);
-    max-width: 40vw;
+    max-width: 80vw;
+    width: 600px;
     aspect-ratio: 1.5/1;
     margin: auto;
 }
@@ -188,13 +189,22 @@ iframe {
     flex-wrap: wrap;
     padding: 0;
     justify-content: space-around;
-    width: 600px;
+    gap: 5px;
     max-width: 90vw;
     margin: auto;
+    padding-bottom: 3rem;
 }
 
-.headshot {
+.teamcard {
+    border: 10px solid var(--green);
+    max-width: 210px;
+    background-color: var(--green);
     img {
-        max-width: 100px;
+        max-width: 100%;
     }
+
+}
+
+.teamcard > p {
+    max-width: 100%;
 }
