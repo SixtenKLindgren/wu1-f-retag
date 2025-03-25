@@ -128,13 +128,16 @@ body {
     margin: 0;
     padding: 1rem;
 }
+.footernav {
+    list-style: none;
+}
 
-.footernav > a {
+.footernav * {
     color: var(--yellow);
     text-decoration: none;
 }
 
-.footernav > a:hover {
+.footernav *:hover {
     color: var(--light);
 }
 
